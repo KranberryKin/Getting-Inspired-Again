@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import {Router as BrowserRouter} from "react-router-dom"
 
 const App = () => {
   return (
@@ -18,7 +17,6 @@ const App = () => {
         >
           Learn React
         </a>
-        <BrowserRouter basename="/Getting-Inspired-Again" />
       </header>
     </div>
   );
